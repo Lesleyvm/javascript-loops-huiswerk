@@ -109,3 +109,5 @@ for (let i = 0; i <= 100; i++) {
         console.log(i)
     }
 }
+
+// de else if met combinatie werkt niet maar ik zie niet waar het mis gaat
