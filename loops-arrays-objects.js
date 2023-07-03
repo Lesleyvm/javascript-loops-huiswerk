@@ -185,9 +185,6 @@ for (let i = 0; i < students.length; i++) {
         case '3583':
             student.neighborhood = 'Schildersbuurt';
             break;
-        default:
-            student.neighborhood = null; // Onbekende postcode, geen buurt toegewezen
-            break;
     }
 }
 
