@@ -28,9 +28,9 @@ for (let i = 1; i <= 5; i++) {
 
 for (let i = 0; i < 5; i++) {
     if (i < 4) {
-        console.log("Loop...")
+        console.log("Loop...");
     } else {
-        console.log("Klaar!")
+        console.log("Klaar!");
     }
 }
 
@@ -52,11 +52,11 @@ for (let i = 0; i < 5; i++) {
 //
 for (let i = 0; i < 10; i++) {
     if (i < 3) {
-        console.log(i)
+        console.log(i);
     } else if (i > 2 && i < 6) {
-        console.log("> " + (i))
+        console.log("> " + (i));
     } else if (i > 5) {
-        console.log(">> " + (i))
+        console.log(">> " + (i));
     }
 }
 
@@ -100,13 +100,14 @@ for (let i = 0; i < 10; i++) {
 
 for (let i = 0; i <= 100; i++) {
     if (i % 3 === 0) {
-        console.log("Fizz")
+        console.log("Fizz");
     } else if (i % 5 === 0) {
-        console.log("Buzz")
-    } else if (i % 3 === 0 && i % 5 === 0) {
-        console.log("FizzBuzz")
+        console.log("Buzz");
+    } else if ((i % 3 === 0) && (i % 5 === 0)) {
+        console.log("FizzBuzz");
     } else {
-        console.log(i)
+        console.log(i);
     }
 }
 
+// de else if met combinatie werkt niet maar ik zie niet waar het mis gaat
