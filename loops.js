@@ -16,6 +16,10 @@ for (let i = 1; i <= 5; i++) {
     console.log(row);
 }
 
+for (let i = 0; i < 5; i++) {
+    console.log('*'.repeat(i + 1));
+}
+
 // ==========================================
 // Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de laatste (vijfde) loop het woord "klaar!"
 // Verwachte uitkomsten:
@@ -54,9 +58,9 @@ for (let i = 0; i < 10; i++) {
     if (i < 3) {
         console.log(i);
     } else if (i > 2 && i < 6) {
-        console.log("> " + (i));
+        console.log("> " + i);
     } else if (i > 5) {
-        console.log(">> " + (i));
+        console.log(">> " + i);
     }
 }
 
@@ -99,15 +103,16 @@ for (let i = 0; i < 10; i++) {
 // ==========================================
 
 for (let i = 0; i <= 100; i++) {
-    if (i % 3 === 0) {
-        console.log("Fizz");
-    } else if (i % 5 === 0) {
-        console.log("Buzz");
-    } else if ((i % 3 === 0) && (i % 5 === 0)) {
+    if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
-    } else {
+    }
+    else if (i % 5 === 0) {
+        console.log("Buzz");
+    }
+    else if (i % 3 === 0) {
+        console.log("Fizz");
+    }
+    else {
         console.log(i);
     }
 }
-
-// de else if met combinatie werkt niet maar ik zie niet waar het mis gaat
